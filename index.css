@@ -1,9 +1,20 @@
 .links {
-    display: grid;
-    gap: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
 }
 
-.links a {
+.links .link {
     font-size: 1.2rem;
     text-decoration: none;
+
+    display: flex !important;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.links link img {
+    max-width: 10rem;
+    height: 5rem;
 }
