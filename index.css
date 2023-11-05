@@ -1,4 +1,29 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-color: #4b75b4;
+    min-height: 100vh;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem 0;
+}
+
+body .container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .links {
+    margin-top: 4rem;
     display: flex;
     gap: 1.5rem;
     align-items: center;
@@ -14,7 +39,15 @@
     max-width: 300px;
 }
 
-.links link img {
-    max-width: 10rem;
-    height: 5rem;
+.links .link img {
+    max-width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.link .text {
+    color: white;
+    font-weight: 700;
 }
